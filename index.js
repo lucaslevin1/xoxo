@@ -1,6 +1,6 @@
 import inquirer from "inquirer";
 import { createStore } from "redux";
-import reducer, { move } from "./game";
+import reducer, { move, winner } from "./game";
 const gameReducer = reducer;
 
 const printBoard = () => {
